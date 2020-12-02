@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+</head>
+
+<body>
+    <main>
+        <h1>ToDo List</h1>
+        <div id="add-task-field">
+            <input type="text" name="new-task" id="new-task-text" placeholder="New Task" />
+            <button class="add-btn" onclick="addTask()">add</button>
+        </div>
+        <div id="task-list"></div>
+    </main>
+
+    <script src="api-client.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
